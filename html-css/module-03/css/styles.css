@@ -1,0 +1,73 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    color: #626262;
+    font-size: 14px;
+    font-family: "Myriad Pro"; 
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.body {
+    width: 901px;
+    margin: 0 auto;
+}
+.site-navigation  {
+    font-size: 14px;
+    list-style: none;
+}
+
+.site-navigation li {
+    display: inline-block;
+}
+.site-navigation li {
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.site-navigation a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #626262;
+}
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: #8ecef8;
+}
+.container {
+    width: 420px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-right: 61px;
+}
+/* .container:nth-child(2n) {
+    margin-right: 0;
+} */
+.load-button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 164px;
+    height: 60px;
+    background: none;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    font-size: 20px;
+    font-family: "Myriad Pro";
+    color: #626262;
+    cursor: pointer;
+    display: inline-block;
+}
+.load-button {
+    margin-right: 380px;
+    margin-left: 359px;
+}
