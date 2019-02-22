@@ -8,66 +8,92 @@ html {
 body {
     color: #626262;
     font-size: 14px;
-    font-family: "Myriad Pro"; 
+    font-family: "Playfair Display";
 }
 img {
     display: block;
     max-width: 100%;
     height: auto;
 }
-
-.body {
-    width: 901px;
-    margin: 0 auto;
-}
-.site-navigation  {
+ul.site-navigation {
     font-size: 14px;
     list-style: none;
+    padding: 10px; 
+    margin-left: 350px;
+    margin-right: 300px;
 }
 
 .site-navigation li {
     display: inline-block;
 }
 .site-navigation li {
-    margin-right: 60px;
-    margin-left: 60px;
+    margin-right: 0px; 
+    margin-left: 50px;
+    padding: 15px;
 }
 .site-navigation a {
     text-decoration: none;
     text-transform: uppercase;
     color: #626262;
+    font-family: "Playfair Display";
 }
 .site-navigation a:hover,
 .site-navigation a:focus {
-    color: #8ecef8;
+    color: #03a9f4;
 }
-.container {
-    width: 420px;
-    margin: 0;
-    padding: 0;
+.left_post {
+    margin-left: 150px;
+}
+.container_left {
     display: inline-block;
-    margin-right: 61px;
+    padding: 15px;
+    width: 580px;
+    margin-right: 80px;
+    margin-left: 60px;
+}
+.container_right {
+    display: inline-block;
+    padding: 0px;
+    width: 410px;
 }
 /* .container:nth-child(2n) {
     margin-right: 0;
 } */
+.left {
+    margin-left: 150px;
+}
+
+.text {
+    color: #b4ad9e;
+    font-family: Ubuntu Light; 
+    font-size: 14px;
+}
+h2 {
+    text-decoration: none;
+    font-family: "Playfair Display";
+    font-size: 30px;
+    color: #626262;
+    font-weight: normal;
+}
+
+.text1 {
+    line-height: 24px;
+}
+
 .load-button {
     border: none;
     margin: 0;
     padding: 0;
     width: 164px;
     height: 60px;
-    background: none;
+    background: #ffffff;
     border: solid;
-    border-color: black;
+    border-color: #626262;
     border-width: 1px;
     font-size: 20px;
-    font-family: "Myriad Pro";
+    font-family: "Playfair Display";
     color: #626262;
     cursor: pointer;
     display: inline-block;
-}
-.load-button {
-    margin-right: 380px;
-    margin-left: 359px;
+    margin: 58px 530px 70px 610px;
 }
