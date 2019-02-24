@@ -1,35 +1,30 @@
-html {
-    box-sizing: border-box;
-}
-
-*, *::before, *::after {
-    box-sizing: inherit;
+* {
+    margin: 0;
+    padding: 0;
 }
 body {
+    padding: 72px 150px 70px 150px;
     color: #626262;
     font-size: 14px;
     font-family: "Playfair Display";
 }
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+.main-header {
+    height: 112px;
+    width: 896px;
 }
-ul.site-navigation {
-    font-size: 14px;
-    list-style: none;
-    padding: 10px; 
-    margin-left: 350px;
-    margin-right: 300px;
-}
-
 .site-navigation li {
     display: inline-block;
 }
-.site-navigation li {
-    margin-right: 0px; 
-    margin-left: 50px;
-    padding: 15px;
+.site-navigation li:first-child {
+    margin-left: 164px;
+    margin-right: 114px;
+}
+.music {
+    margin-left: 93px;
+    margin-right: 85px; 
+}
+.site-navigation li:last-child {
+    margin-right: 163px;
 }
 .site-navigation a {
     text-decoration: none;
@@ -41,49 +36,41 @@ ul.site-navigation {
 .site-navigation a:focus {
     color: #03a9f4;
 }
-.left_post {
-    margin-left: 150px;
+img {
+    height: 280px;
+    width: 420px;
+    margin-bottom: 23px;
 }
 .container_left {
     display: inline-block;
-    padding: 15px;
-    width: 580px;
-    margin-right: 80px;
-    margin-left: 60px;
+    width: 420px;
+    margin-right: 60px;
+    margin-bottom: 130px;
 }
 .container_right {
     display: inline-block;
-    padding: 0px;
-    width: 410px;
+    width: 420px;
+    margin-bottom: 130px;
 }
-/* .container:nth-child(2n) {
-    margin-right: 0;
-} */
-.left {
-    margin-left: 150px;
-}
-
 .text {
     color: #b4ad9e;
     font-family: Ubuntu Light; 
     font-size: 14px;
+    margin-bottom: 20px;
 }
 h2 {
     text-decoration: none;
-    font-family: "Playfair Display";
+    font-family: "Playfair Display-Regular";
     font-size: 30px;
     color: #626262;
-    font-weight: normal;
+    font-weight: 500;
+    margin-bottom: 30px;
 }
-
 .text1 {
     line-height: 24px;
 }
-
 .load-button {
-    border: none;
-    margin: 0;
-    padding: 0;
+    display: inline-block;
     width: 164px;
     height: 60px;
     background: #ffffff;
@@ -94,6 +81,5 @@ h2 {
     font-family: "Playfair Display";
     color: #626262;
     cursor: pointer;
-    display: inline-block;
-    margin: 58px 530px 70px 610px;
+    margin: -80px 400px 0px 357px;
 }
