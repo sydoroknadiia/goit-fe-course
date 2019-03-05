@@ -109,7 +109,7 @@
 
 .name_item {
     text-decoration: none;
-    width: 200px;
+    width: 201px;
     height: 40px;
     background-color: #323232;
     color: #ffffff;
@@ -118,8 +118,8 @@
     text-transform: uppercase;
     font-weight: bold;
     text-align: left;
-    vertical-align: middle;
     float: left;
+    line-height: 2;
 }
 .price {
     text-decoration: none;
@@ -130,8 +130,8 @@
     font-family: "Roboto";
     font-size: 18px;
     text-align: center;
-    float: right;
-    vertical-align: middle;
+    float: left;
+    line-height: 2;
 }
 .item img {
     width: 255px;
@@ -143,11 +143,12 @@
 .second-line {
     margin-bottom: 105px;
 }
-.item a:hover,
-.item a:focus {
-    background-color: #1abc9c);
+.item:hover .name_item {
+    background-color: #1abc9c;
 }
-
+.item:hover .price {
+    background-color: #7fd9c7;
+}
 .post {
     width: 350px;
     height: 262px;
@@ -174,9 +175,7 @@
     background-color: rgb( 26, 188, 156 );
     width: 136px;
     height: 3px;
-    margin left: 0;
-    margin-top: 11px;
-    margin-bottom: 29px;
+    margin: 11px 0 29px 0;
 }
 .text {
     font-family: "OpenSans";
