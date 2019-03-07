@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     /* outline: 1px solid green; */
 }
  body {
@@ -28,7 +29,7 @@
 }
  .site-navigation a {
     text-decoration: none;
-    font-family: "OpenSans";
+    font-family: "OpenSans", sans-serif;
     font-size: 14px;
     color: rgb(15, 1, 1);
     font-weight: bold;
@@ -45,7 +46,7 @@
 .charter {
     list-style: none;
     text-decoration: none;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-size: 48px;
     text-align: center;
     font-weight: bold;
@@ -113,13 +114,14 @@
     height: 40px;
     background-color: #323232;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-size: 18px;
     text-transform: uppercase;
     font-weight: bold;
     text-align: left;
     float: left;
-    line-height: 2;
+    padding-left: 13px;
+    padding-top: 10px;
 }
 .price {
     text-decoration: none;
@@ -127,7 +129,7 @@
     height: 40px;
     background-color: #8c8c8c;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-size: 18px;
     text-align: center;
     float: left;
@@ -164,7 +166,7 @@
     margin-right: 0;
 }
 .new {
-    font-family: "OpenSans";
+    font-family: "OpenSans", sans-serif;
     font-size: 18px;
     color: rgba(85, 82, 82, 255);
     line-height: 26px;
@@ -178,7 +180,7 @@
     margin: 11px 0 29px 0;
 }
 .text {
-    font-family: "OpenSans";
+    font-family: "OpenSans", sans-serif;
     font-size: 14px;
     color: rgba(85, 82, 82, 255);
     line-height: 26px;
@@ -189,7 +191,7 @@
     width: 160px;
     height: 51px;
     background: #4ec6ab;
-    font-family: "OpenSans";
+    font-family: "OpenSans", sans-serif;
     font-size: 16px;
     color: #ffffff;
     cursor: pointer;
