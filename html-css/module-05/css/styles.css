@@ -163,8 +163,12 @@ nav {
     background-color: #e9f0fd; 
     position: relative;
 }
-.item:first-child {
-    margin-left: 13%;
+.item:last-child {
+    margin-right: 0;
+}
+.items {
+    width: 1110px;
+    margin: auto;
 }
 .item img {
     width: 255px;
