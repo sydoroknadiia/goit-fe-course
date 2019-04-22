@@ -45,7 +45,6 @@ img {
   height: auto;
   display: block;
 }
-
  /* Header */
  .zero {
   padding: 0;
@@ -289,7 +288,7 @@ nav {
     }
     .account_order2{
       order: 1;
-      margin-bottom: 42px;
+      margin-bottom: 40px;
     }
     .btn2 {
       order: 1;
@@ -349,10 +348,11 @@ nav {
   }
   .account {
     width: 25%;
+    margin-bottom: 56px;
   }
   .account_order{
     order: 1;
-    margin-bottom: -15px;
+    margin-bottom: 21px;
   }
   .account_order2{
     order: 1;
