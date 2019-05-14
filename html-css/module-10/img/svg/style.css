@@ -1,0 +1,48 @@
+[class^="icon-"], [class*=" icon-"] {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-BOOK-2 {
+  width: 1.029296875em;
+}
+
+.icon-COMPUTER-_-OK {
+  width: 1.0966796875em;
+}
+
+.icon-facebook {
+  width: 0.517578125em;
+}
+
+.icon-HOME {
+  width: 1.060546875em;
+}
+
+.icon-IMAGE {
+  width: 1.05859375em;
+}
+
+.icon-pinterest {
+  width: 0.79296875em;
+}
+
+.icon-SHOPPING-CART {
+  width: 1.1767578125em;
+}
+
+.icon-twitter {
+  width: 1.1669921875em;
+}
