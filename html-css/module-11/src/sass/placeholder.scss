@@ -1,0 +1,29 @@
+%Montreg {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+%Mont700 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+%Mont800 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+%roboto {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+%inner {
+    background-position: center;
+    background-repeat: no-repeat;
+}
+%imagehover {
+    transform: translate(-9px, -9px);
+    transition: all 200ms linear;
+    box-shadow: 9px 9px #95e1d3;
+}
+%flexJCSB {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,453 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // outline: 1px solid green; 
+}
+body {
+    padding: 0 0 0 0;
+}
+/* Header */
+.container {
+    background: $gradient, url(../images/Background@1X.jpeg);
+    background-position: top;
+    background-size: cover;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.wraper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.page__header {
+    padding-bottom: 119px;
+}
+.logo a{
+    list-style: none;
+    text-decoration: none;
+    @extend %Mont700;
+    font-size: 23px;
+    color: $color-white;
+    text-align: left;
+    font-style: normal;
+}
+.page__navigation {
+    padding-top: 36px;
+    align-items: center;
+}
+.site-navigation {
+    @extend %flexJCSB;
+}
+.site-navigation__items {
+    min-width: 620px;
+    @extend %flexJCSB;
+}
+.site-navigation li {
+    list-style: none;
+}
+.site-navigation__item a {
+    text-decoration: none;
+    @extend %Mont700;
+    font-size: 14px;
+    color: $color-white;
+    text-transform: uppercase;
+    line-height: 0.786;
+    text-align: center;  
+}
+.site-navigation__item a:hover,
+.site-navigation__item a:focus {
+    color: $color-yellow;
+    border-bottom: 2px solid $color-yellow;
+}
+.link__svg {
+    width: 18px;
+    height: 18px; 
+    fill: $color-white;            
+}
+.link__svg:hover {
+    fill: $color-yellow;
+}
+.nav__title {
+    display: flex;
+    flex-direction: column;
+    width: 67%;
+    margin: 0 auto;
+}
+.nav__title--name {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+    color: $color-white;
+    display: block;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.nav__title--mainname {
+    margin: 0 auto;
+    @extend %Mont700;
+    font-size: 110px;
+    color: $color-white;
+    text-transform: uppercase;
+    line-height: 110px;
+    text-align: center;
+    margin-bottom: 94px;
+}
+.nav__button {
+    width: 160px;
+    height: 40px;
+    border: 2px solid $color-white;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 0 auto;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: $color-white;
+    text-align: center;
+    margin-bottom: 170px;
+    cursor: pointer;
+}
+/* First section */
+.first-section {
+    width: 1190px;
+    margin: 0 auto;
+}
+.first-section__title {
+    margin-top: 40px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    color: $color-dark;
+    display: block;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 22px;
+}
+.first-section__name {
+    list-style: none;
+    text-decoration: none;
+    @extend %Mont700;
+    font-size: 30px;
+    text-align: center;
+    color: $color-dark;
+    text-transform: uppercase;
+}
+.first-section__name::after {
+    content: "";
+    display: block;
+    background-color: $color-red;
+    width: 60px;
+    height: 3px;
+    margin: auto;
+    margin-top: 42px;
+    margin-bottom: 66px;
+}
+.services__menu {
+    width: 100%;
+    @extend %flexJCSB;
+    flex-wrap: wrap;
+}
+.first-line {
+    display: flex;
+    margin-bottom: 100px;
+}
+.second-line {
+    display: flex;
+    margin-bottom: 92px;
+}
+.services {
+    display: flex;
+    margin-right: 68px;
+}
+.icon__svg {
+    margin-right: 29px;
+    display: block;
+    width: 32px;
+    height: 32px;
+    fill: $color-blue;
+}
+.service {
+    width: 290px;
+    height: 69px;
+}
+.service__name {
+    @extend %Montreg;
+    color: $color-dark;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.service__text {
+    @extend %roboto;
+    color: $color-grey;
+    text-align: left;
+}
+
+/* Second section */
+
+.second-section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.second-section__title {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    color: $color-dark;
+    display: block;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 22px;
+}
+.second-section__name {
+    list-style: none;
+    text-decoration: none;
+    @extend %Mont700;
+    font-size: 30px;
+    text-align: center;
+    color: $color-dark;
+    text-transform: uppercase;
+}
+.second-section__name::after {
+    content: "";
+    display: block;
+    background-color: $color-red;
+    width: 60px;
+    height: 3px;
+    margin: auto;
+    margin-top: 42px;
+    margin-bottom: 66px;
+}
+.second-section__text {
+    width: 80%;
+    margin: 0 auto;
+    @extend %roboto;
+    color: $color-grey;
+    text-align: center;
+    margin-bottom: 90px;
+}
+.team__menu {
+    @extend %flexJCSB;
+    align-items: center;
+}
+.team__name {
+    width: 383px;
+    height: 540px;
+    margin-bottom: 82px;
+}
+.team {
+    max-width: 383px;
+    height: 473px;
+    @extend %flexJCSB;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 31px;
+}
+
+.box1 {
+    width: 383px;
+    height: 473px;
+    transition: all 200ms linear;
+    background: url(../images/Team_1@1X.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    @extend %flexJCSB;
+    align-items: center;
+}
+
+.box2 {
+    width: 383px;
+    height: 473px;
+    transition: all 200ms linear;
+    background: url(../images/Team_2@1X.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    @extend %flexJCSB;
+    align-items: center;
+}
+.box3 {
+    width: 383px;
+    height: 473px;
+    transition: all 200ms linear;
+    background: url(../images/Team_3@1X.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    @extend %flexJCSB;
+    align-items: center;
+}
+.team:hover .box {
+    @extend %imagehover;
+}
+.inner {
+    width: 224px;
+    height: 56px;
+    background-color: $color-yellow;
+    display: none;
+    margin: auto;
+}
+
+.team1:hover .box1 {
+    display: flex;
+    background: $gradient, url(../images/Team_1@1X.jpeg);
+    background-size: cover;
+}
+.team2:hover .box2 {
+    display: flex;
+    background: $gradient, url(../images/Team_2@1X.jpeg);
+    background-size: cover;
+}
+.team3:hover .box3 {
+    display: flex;
+    background: $gradient, url(../images/Team_3@1X.jpeg);
+    background-size: cover;
+}
+.team:hover .inner {
+    display: flex;
+}
+.social1:hover >svg { 
+    fill: $color-white;
+}
+.social2:hover >svg { 
+    fill: $color-white;
+}
+.social3:hover >svg { 
+    fill: $color-white;
+}
+.social4:hover >svg { 
+    fill: $color-white;
+}
+.social1:hover {
+    background-color: $color-red;
+}
+.social2:hover {
+    background-color: $color-red;
+}
+.social3:hover {
+    background-color: $color-red;
+}
+.social4:hover {
+    background-color: $color-red;
+}
+.social__svg{
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translate( -45%, 0%);
+    width: 30%;
+    fill: $color-red;
+}
+.social__svg--icon {
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translate( -45%, 0%);
+    width: 40%;
+    fill: $color-red;
+}
+.social1,.social2,.social3,.social4{
+    width: 56px;
+    height: 56px;
+    display: flex;
+    background-color: $color-yellow;
+    border-right: 0.5px solid $color-red;
+}
+.name {
+    @extend %Montreg;
+    font-weight: 400;
+    color: $color-dark;
+    text-transform: uppercase;
+    text-align: center;
+}
+.profession {
+    @extend %roboto;
+    color: $color-grey;
+    font-weight: 100;
+    line-height: 1.6;
+    text-align: center;
+    font-style: italic; 
+}
+/* Footer  */
+
+footer {
+    height: 62px;
+    border-top: 1px solid $color-border;
+    @extend %flexJCSB;
+    align-items: center;
+}
+footer > p {
+    @extend %Montreg;
+    color: $color-dark;
+    text-align: left;
+    line-height: 5;
+    vertical-align: -10px;
+}
+p > span {
+    margin-left: 2px;
+    color: $color-span;
+}
+.form {
+    display: flex;
+}
+input {
+    width: 230px;
+    height: 40px;
+    border: 1px solid $color-border;
+}
+input[type="email"] {
+    padding: 0 0 0 15px;
+    font-size: 15px;
+}
+input::placeholder {
+    color: $color-placeholder;
+    font-family: 'Robotolight',sans-serif;
+}
+input[type="submit"] {
+    list-style: none;
+    width: 150px;
+    height: 40px;
+    color: $color-white;
+    background-color: $color-blue;
+    @extend %Montreg;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-width: 0px;
+    cursor: pointer;
+}
+@media (-webkit-min-device-pixel-ratio: 2),
+(-o-min-device-pixel-ratio: 2/1),
+(min-resolution: 192dpi) {
+    .container {
+        background: $gradient, url(../images/Background@2X.jpeg);
+        background-position: top;
+        background-size: cover;
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+    }
+    .box1 {
+        background: url(../images/Team_1@2X.jpeg) 0 0 no-repeat;
+        -webkit-background-size: cover;
+        display: flex;
+        background-size: contain;
+    }
+    .box2 {
+        background-image: url(../images/Team_2@2X.jpeg) 0 0 no-repeat;
+        -webkit-background-size: cover;
+        background-size: contain;
+    }
+    .box3 {
+        background: url(../images/Team_3@2X.jpeg) 0 0 no-repeat;
+        -webkit-background-size: cover;
+        display: flex;
+        background-size: contain;
+    }
+    .team1:hover .box1 {
+        background: $gradient, url(../images/Team_1@2X.jpeg) 100% 100% no-repeat;
+        background-size: cover;
+    }
+    .team2:hover .box2 {
+        background: $gradient, url(../images/Team_2@2X.jpeg) 100% 100% no-repeat;
+        background-size: cover;
+    }
+    .team3:hover .box3 {
+        background: $gradient, url(../images/Team_3@2X.jpeg) 100% 100% no-repeat;
+        background-size: cover;
+    }
+}    
